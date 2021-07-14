@@ -1,0 +1,178 @@
+ /*--------------
+  Responsive Css
+ ----------------*/
+
+/* Tablet Device */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    /* --- Banner-area */
+    .banner-area {
+        height: 460px;
+        padding: 0px 20px;
+    }
+    .banner-heading {
+        font-size: 49px;
+        color: #FFFFFF;
+    }
+    .banner-image img {
+        width: 360px;
+        height: 295px;
+    }
+
+    /* ----Blog area  */
+    .blogs-container {
+        width: 90%;
+    }
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ----Highlights area  */
+    .highlights-area {
+        padding: 60px 0;
+        text-align: center;
+        width: 90%;
+    }
+    .highlights-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .highlights-text {
+        margin-bottom: 50px;
+    }
+    .highlights-heading {
+        font-size: 48px;
+    }
+    .highlights-image img {
+        margin: 0;
+    }
+
+    /* --- League-area */
+    .league-container {
+        width: 100%;
+        text-align: center;
+    }
+    .league-area {
+        align-items: center;
+        flex-direction: column;
+    }
+    .league-banner {
+        margin-bottom: 50px;
+    }
+
+    /* --- Gallery-area  */
+    .gallery-heading {
+        font-size: 35px;
+    }
+    .gallery-photo img {
+        width: 150px;
+        height: 140px;
+    }
+
+    /* ---Footer area  */
+    .footer-area {
+        text-align: center;
+        padding: 5px 0 60px 0;
+    }
+}
+
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+    /* --- Banner area */
+    .banner-area {
+        height: 695px;
+        padding: 0px 16px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner-text {
+        margin-bottom: 50px;
+    }
+    .banner-heading {
+        font-size: 36px;
+        color: #FFFFFF;
+    }
+    .banner-image img {
+        width: 329px;
+        height: 259px;
+    }
+
+    /* ----Blog area  */
+    .blogs-container {
+        width: 88%;
+    }
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* --- League-area */
+    .league-container {
+        width: 100%;
+        text-align: center;
+        padding: 50px 0;
+    }
+    .league-header {
+        font-size: 30px;
+    }
+    .league-area {
+        flex-direction: column;
+    }
+    .league-thumbnail img {
+        width: 344px;
+        height: 220px;
+    }
+    .league-banner {
+        margin-bottom: 35px;
+    }
+    .league-news {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 35px 15px;
+    }
+    .news-image img {
+        width: 160px;
+        height: 85px;
+    }
+
+    /* ----Highlights area  */
+    .highlights-area {
+        padding: 10px 0;
+        width: 92%;
+        text-align: center;
+    }
+    .highlights-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .highlights-text {
+        margin-bottom: 40px;
+    }
+    .highlights-heading {
+        font-size: 30px;
+    }
+    .highlights-image img {
+        width: 348px;
+        height: 262px;
+        margin: 0;
+    }
+
+     /* --- Gallery-area  */
+     .gallery-heading {
+        font-size: 30px;
+    }
+    .gallery-box {
+        flex-direction: column;
+    }
+
+    /* ----Footer area  */
+    .footer-logo img {
+        width: 290px;
+        height: 72px;
+    }
+    .footer-social-icon i {
+        font-size: 25px;
+        padding: 9px;
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        margin: 8px;
+    }
+}
